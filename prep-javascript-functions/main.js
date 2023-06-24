@@ -48,14 +48,14 @@ var getCircleCircumferenceResult = getCircleCircumference(7);
 console.log('getCircleCircumference Exercise: ', getCircleCircumferenceResult);
 
 function getFullName(firstName, lastName) {
-  return firstName + lastName;
+  return firstName + ' ' + lastName;
 }
 
-var getFullNameResult = getFullName('Hannah ', 'Hoang');
+var getFullNameResult = getFullName('Hannah', 'Hoang');
 console.log('getFullName Exercise: ', getFullNameResult);
 
 function cube(number) {
-  return number * 4;
+  return number * number * number;
 }
 
 var cubeResult = cube(2);
