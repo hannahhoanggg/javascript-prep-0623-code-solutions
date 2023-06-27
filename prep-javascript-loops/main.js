@@ -15,8 +15,7 @@ function whileLoop2() {
     let i = 0;
     while (i < 20) {
      array.push(i);
-     i++; 
-     i++;
+     i=i+2;
     }
 return array;
 }
